@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0,0,0, .87);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.topbar{
+    background: #355870;
+    z-index: 3;
+    position: fixed;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+}
+
+.topbar nav a{
+    color: #FBFBFB;
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 40px;
+}
+
+.topbar nav a:hover, .topbar nav a.active{
+    text-decoration: underline;
+}
+
+.topbar .social{
+    float: right;
+    margin-right: 30px;
+}
+
+.topbar .social img{
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 50px;
+    vertical-align: middle;
+}
+
+.social a{
+    padding: 0 12px;
+    opacity: .5;
+}
+
+.social a:hover{
+    opacity: 1;
+}
+
+.main{
+    background: #fff;
+    float: left;
+    position: relative;
+    margin: 30px 0;
+    z-index: 2;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.article{
+    position: relative;
+    margin: 90px 0;
+    padding: 0 200px;
+    min-height: 200px;
+}
+
+.article img{
+    float: left;
+    margin-right: 25px;
+}
+
+.profil-title{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin: 0 0  0 20px;
+}
+
+.article p{
+    text-align: justify;
+}
+
+.bottom-bar{
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #355870;
+    padding: 20px;
+}
